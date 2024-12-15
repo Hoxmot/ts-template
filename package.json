@@ -1,0 +1,24 @@
+{
+  "name": "@hoxmot/ts-template",
+  "version": "1.0.0",
+  "description": "This is a template of a packge. Replace me",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run complie && npm run lint&& npm run test",
+    "compile": "tsc",
+    "lint": "eslint ",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "Hoxmot <hoxmot@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@tsconfig/node22": "^22.0.0",
+    "eslint": "^9.17.0",
+    "globals": "^15.13.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0"
+  }
+}
