@@ -4,9 +4,9 @@
   "description": "This is a template of a packge. Replace me",
   "main": "index.js",
   "scripts": {
-    "build": "npm run complie && npm run lint&& npm run test",
+    "build": "npm run complie && npm run lint && npm run test",
     "compile": "tsc",
-    "lint": "eslint ",
+    "lint": "eslint",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
