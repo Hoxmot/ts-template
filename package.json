@@ -4,25 +4,28 @@
   "description": "This is a template of a packge. Replace me",
   "main": "index.js",
   "scripts": {
-    "build": "npm run complie && npm run lint && npm run test",
+    "build": "npm run compile && npm run lint && npm run test",
     "compile": "tsc",
     "eslint": "eslint",
     "format": "prettier lib --write",
     "format:check": "prettier --check lib",
     "lint": "npm run eslint && npm run format:check",
-    "test": "echo \"Error: no test specified\""
+    "test": "vitest run --coverage"
   },
   "keywords": [],
   "author": "Hoxmot <hoxmot@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@eslint/js": "^9.17.0",
+    "@eslint/compat": "^1.2.4",
     "@tsconfig/node22": "^22.0.0",
+    "@vitest/coverage-v8": "^2.1.8",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
     "globals": "^15.13.0",
     "prettier": "^3.4.2",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.18.0"
+    "typescript-eslint": "^8.18.0",
+    "vitest": "^2.1.8"
   }
 }
